@@ -1,8 +1,8 @@
 title: Code for San Francisco Finance
 description: >
   Code for San Francisco finances and fundraising opportunities
-baseurl: ""
-url: "http://fund.codeforsanfrancisco.org" # the base hostname & protocol for your site
+baseurl: "/fund-site"
+url: "http://codeforsanfrancisco.org"
 twitter_username: sfbrigade
 github_username:  sfbrigade
 
