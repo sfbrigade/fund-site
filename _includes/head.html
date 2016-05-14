@@ -7,14 +7,20 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="keywords" content="donations civic hacking volunteer organization" />
     <link rel="shortcut icon" type="image/favicon.ico" href="{{ site.baseurl }}/images/favicon.ico"/>
     <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/skel.min.js"></script>
     <script src="{{ site.baseurl }}/js/skel-layers.min.js"></script>
     <script src="{{ site.baseurl }}/js/init.js"></script>
+
+    <meta property="og:url"                content="{{ site.baseurl }}" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="{{ site.title }}" />
+    <meta property="og:description"        content="{{ site.description }}" />
+
     <noscript>
         <link rel="stylesheet" href="{{ site.baseurl }}/css/skel.css" />
         <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
