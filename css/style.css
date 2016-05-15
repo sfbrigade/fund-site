@@ -599,7 +599,7 @@ ul.actions li p {
 
 			ul.actions li {
 				display: block; /* changed from inline-block */
-				padding: 0 1em 1em 0; /* changed from 0 1em 0 0 */
+				padding: 1em 0; /* changed from 0 1em 0 0 */
 				vertical-align: middle;
 			}
 
