@@ -101,15 +101,15 @@
 						width: 250
 					},
 
-				// Navigation Button.
-					navButton: {
-						breakpoints: 'medium',
-						height: '4em',
-						html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
-						position: 'top-left',
-						side: 'top',
-						width: '6em'
-					}
+				// Navigation Button. XXX removed since we are not using the nav bar
+					//navButton: {
+						//breakpoints: 'medium',
+						//height: '4em',
+						//html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
+						//position: 'top-left',
+						//side: 'top',
+						//width: '6em'
+					//}
 
 			}
 		}
